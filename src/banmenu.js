@@ -23,7 +23,7 @@ Ejemplo: *desban @xxxxxxx
 
 ══════════════
 
-_*by Ochoa*_
+_*by Dragon*_
 
 `
 
