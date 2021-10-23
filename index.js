@@ -245,7 +245,7 @@ async function starts() {
 		start('2', 'Estas desconectado')
 	})
 	client.on('open', () => {
-		success('2', 'Conectado by Ochoa')
+		success('2', 'Conectado by Dragon')
 	})
 	await client.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./Nazwa.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
@@ -579,7 +579,7 @@ if (budy.includes("https://m.facebook.com/")){
 
 /******ENTRADA FIN DE FUNCIONES******/
 			function addMetadata(packname, author) {	
-				if (!packname) packname = 'XavyBot'; if (!author) author = 'Ochoa';	
+				if (!packname) packname = 'Dragon'; if (!author) author = 'Dragon';	
 				author = author.replace(/[^a-zA-Z0-9]/g, '');	
 				let name = `${author}_${packname}`
 				if (fs.existsSync(`./src/stickers/${name}.exif`)) return `./src/stickers/${name}.exif`
