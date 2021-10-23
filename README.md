@@ -59,7 +59,7 @@ Pasos para instalar el bot en termux
 > pkg install nodejs
 > pkg install wget
 > git clone https://github.com/chancindy845/Dragonbot
-> cd XavyBot
+> cd Dragonbot
 > bash install.sh
 > npm start
 > Y escaneas el QR con tu Whatsapp
