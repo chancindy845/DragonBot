@@ -1,10 +1,10 @@
-const stickermaker = (prefix, XavyBot, Ochoa) => {
+const stickermaker = (prefix, Dragonbot, Dragon) => {
 	return `
-「 *${XavyBot}* 」
+「 *${Dragonbot}* 」
 
 ◪ *INFO*
   ❏ Prefix: 「  ${prefix}  」
-  ❏ Creator: ${Ochoa}
+  ❏ Creator: ${Dragon}
 ◪ *ABOUT*
   │
   ├─ ❏ ${prefix}info
