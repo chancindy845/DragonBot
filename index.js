@@ -95,7 +95,7 @@ const {
 
 /******INICIO DE FUNCIONES ENTRADA******/
 
-/******ARCHIVOS ANTILINK POR OCHOA******/
+/******ARCHIVOS ANTILINK POR DRAGON******/
 
 const antilink = JSON.parse(fs.readFileSync('./src/antilink.json'))
 const antiface = JSON.parse(fs.readFileSync('./src/antiface.json'))
@@ -105,7 +105,7 @@ const antikwai = JSON.parse(fs.readFileSync('./src/antikwai.json'))
 const antiwa = JSON.parse(fs.readFileSync('./src/antiwa.json'))
 const antidiscord = JSON.parse(fs.readFileSync('./src/antidiscord.json'))
 
-/******FIN DE ARCHIVOS ANTILINK POR Dragon******/
+/******FIN DE ARCHIVOS ANTILINK POR DRAGON******/
 
 
 //LEVEL INICIO
@@ -708,7 +708,7 @@ break
 //FIN DE FUNCIONES BAN Y DESBAN					
 					
 					
-/******JUEGOS OCHOA LA PUTA MADRE NO TE OLVIDES******/
+/******JUEGOS DRAGON LA PUTA MADRE NO TE OLVIDES******/
 					
 case 'tombo':
 if (!isUser) return reply(mess.only.daftarB)
@@ -761,7 +761,7 @@ reply('Hubo un error intentalo nuevamente :/')
 }
 break				
 											
-/******JUEGOS OCHOA LA PUTA MADRE NO TE OLVIDES******/					
+/******JUEGOS DRAGON LA PUTA MADRE NO TE OLVIDES******/					
 					
 					
        				case 'wa.me':
@@ -779,8 +779,8 @@ break
 		
 	
 	case 'creador':
-	       client.sendMessage(from, {displayname: "Ochoa", vcard: vcard}, MessageType.contact, { quoted: mek})
-		client.sendMessage(from, 'Hola 👋 te saluda Ochoa, este es un mensaje predeterminado.\n\nArriba esta mi contacto por si tienen algun problema con las descargas o yo que se.\nYo soy dueño de este bot y lo controlo, yo cree la base de datos y le doy mantenimiento.\nEl numero osea mi contacto de arriba no es un bot.\nBueno disfruten del bot.\n\n_*by Ochoa*_',MessageType.text, { quoted: mek} )
+	       client.sendMessage(from, {displayname: "Dragon", vcard: vcard}, MessageType.contact, { quoted: mek})
+		client.sendMessage(from, 'Hola 👋 te saluda Dragon, este es un mensaje predeterminado.\n\nArriba esta mi contacto por si tienen algun problema con las descargas o yo que se.\nYo soy dueño de este bot y lo controlo, yo cree la base de datos y le doy mantenimiento.\nEl numero osea mi contacto de arriba no es un bot.\nBueno disfruten del bot.\n\n_*by Ochoa*_',MessageType.text, { quoted: mek} )
                 client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                 break
 	
@@ -860,7 +860,7 @@ break
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 *TODOS* 〙✪══\n╠➥'+teks+'╚═〘 _*by Ochoa*_ 〙', members_id, true)
+					mentions('╔══✪〘 *TODOS* 〙✪══\n╠➥'+teks+'╚═〘 _*by Dragon*_ 〙', members_id, true)
 					break
                                 case 'send':
 					var pc = body.slice(6)
@@ -891,7 +891,7 @@ break
 						reply('')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `*「 _*by Ochoa*_ 」*\n\n${body.slice(4)}`)
+							sendMess(_.jid, `*「 _*by Dragon*_ 」*\n\n${body.slice(4)}`)
 						}
 						reply('Transmisión exitosa')
 					}
@@ -919,7 +919,7 @@ break
 		
                                        
 				
-			//ANTILINKS DE REDES SOCIALES FLACO ACEPTALO SOLO LO ESTAS EDITANDO REALMENTE OCHOA TE HIZO TODO ESTO	
+			//ANTILINKS DE REDES SOCIALES FLACO ACEPTALO SOLO LO ESTAS EDITANDO REALMENTE DRAGON TE HIZO TODO ESTO	
 				
 				case 'antiwa':
                                         if (!isGroup) return reply(mess.only.group)
@@ -1071,7 +1071,7 @@ break
 					break
 			        
 				
-				//FIN DE ANTILINK HECHO POR OCHOA
+				//FIN DE ANTILINK HECHO POR DRAGON
 				
 //ADMINISTRACION DE GRUPOS
 		                
